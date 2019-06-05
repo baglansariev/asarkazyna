@@ -34,6 +34,5 @@
 		 echo 'Mailer Error: ' . $mail->ErrorInfo;
 		} else {
 			echo 'ok';
-		// header('Location: /');
 		}
 	}
